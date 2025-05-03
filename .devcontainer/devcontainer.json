@@ -30,6 +30,12 @@
 				"workbench.editor.enablePreviewFromQuickOpen": false,
 				"workbench.tree.renderIndentGuides": "always",
 				"python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+				"python.analysis.extraPaths": [
+					"${workspaceFolder}/.venv/lib/python3.12/site-packages",
+					"${workspaceFolder}/.venv/li64/python3.12/site-packages",
+				],
+				"python.analysis.autoImportCompletions": true,
+				"python.analysis.indexing": true,
 				"[python]": {
 					"editor.codeActionsOnSave": {
 						"source.fixAll": "explicit",
