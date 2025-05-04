@@ -15,7 +15,8 @@
 			"extensions": [
 				"christian-kohler.path-intellisense",
 				"ms-python.python",
-				"charliermarsh.ruff"
+				"charliermarsh.ruff",
+				"saoudrizwan.claude-dev"
 			],
 			"settings": {
 				"files.autoSave": "onFocusChange",
